@@ -1,0 +1,30 @@
+/*!
+\mainpage
+
+\section sec1 Matrix calculator (téma: Maticová kalkulačka)
+Autor: Troják Jan - trojaj12 <a href="mailto:trojaj12@fit.cvut.cz">trojaj12@fit.cvut.cz</a>
+<br /><br />
+\section sec2 Zadání:
+Vytvořte aplikaci implementující maticovou kalkulačku.
+
+Kalkulačka bude zvládat:
+
+    - základní matematické operace (sčítání, odčítání, násobení)
+    - základní práce s maticemi (transpozice, spojení dvou matic, oříznout matice)
+    - výpočet hodnosti, determinantu a inverzní matice (pokud možno)
+    - převádět matice do horního stupňovitého tvaru (HST)
+    - implementace GEMu s komentářem a bez
+    - ukládat matice do proměnných
+    - načítat/ukládat paměť kalkulačky z/do souborů
+<br /><br /><hr>
+\section sec3 Ovládání:
+    Kalkulačka se ovládá pomocí příkazové řádky. Seznam příkazu je uchováván v src/UI/CUIText.cpp.
+    <br />Informace k příkazům lze zobrazit pomocí příkazu HELP.
+    <br />Syntaxe: <i>'HELP [příkaz]'</i>
+<br /><br /><br /><hr>
+\section sec4 Prohlášení:
+Prohlasuji, ze jsem svou semestralni praci vytvoril sam a od nikad jsem praci nezkopiroval.
+
+Trojak Jan <trojaj12@fit.cvut.cz>
+
+*/
