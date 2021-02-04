@@ -1,6 +1,7 @@
 #pragma once
 
 #include <map>
+#include <string>
 #include "CMatrix.h"
 
 class CSparseMatrix final : public CMatrix
