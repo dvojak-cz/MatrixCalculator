@@ -63,9 +63,9 @@ void CUserInterface::PrintHelp ( const std::vector < std::string > & words ) con
             std::cout << CUIText::helpText.at ( CUIText::EKey::HELP ) << std::endl;
         else if ( words[ 1 ] == CUIText::mainCommands.at ( CUIText::EKey::SCAN ) )
             std::cout << CUIText::helpText.at ( CUIText::EKey::SCAN ) << std::endl;
-        else if ( words[ 0 ] == CUIText::mainCommands.at ( CUIText::EKey::LOAD ) )
+        else if ( words[ 1 ] == CUIText::mainCommands.at ( CUIText::EKey::LOAD ) )
             std::cout << CUIText::helpText.at ( CUIText::EKey::LOAD ) << std::endl;
-        else if ( words[ 0 ] == CUIText::mainCommands.at ( CUIText::EKey::SAVE ) )
+        else if ( words[ 1 ] == CUIText::mainCommands.at ( CUIText::EKey::SAVE ) )
             std::cout << CUIText::helpText.at ( CUIText::EKey::SAVE ) << std::endl;
         else if ( words[ 1 ] == CUIText::mainCommands.at ( CUIText::EKey::PRINT ) )
             std::cout << CUIText::helpText.at ( CUIText::EKey::PRINT ) << std::endl;
